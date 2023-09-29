@@ -1,0 +1,22 @@
+.categories-btn,
+.remove-btn {
+  padding: 10px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+input {
+  display: block;
+  padding: 5px;
+  margin: 10px 5px;
+}
+
+.book,
+.author,
+.by {
+  margin: 0 20px;
+}
+
+::placeholder {
+  font-style: italic;
+}
