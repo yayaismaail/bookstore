@@ -1,6 +1,6 @@
 const Categories = () => (
   <>
-    <button type="button">Check status</button>
+    <button type="button" className="categories-btn">Check status</button>
   </>
 );
 
