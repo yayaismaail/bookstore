@@ -5,10 +5,10 @@ import Form from './Form';
 const Books = ({ title, author }) => (
   <>
     <div>
-      <h2>{title}</h2>
-      <p>by</p>
-      <p>{author}</p>
-      <button type="button">Remove</button>
+      <h2 className="book">{title}</h2>
+      <p className="by">by</p>
+      <p className="author">{author}</p>
+      <button type="button" className="remove-btn">Delete</button>
     </div>
     <Form />
   </>
