@@ -1,3 +1,4 @@
+import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './styles.css';
 import Books from './components/Books';
@@ -6,13 +7,13 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <>
+    <div>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Books title="The Hunger Games" author="Suzanne Collins" />} />
+        <Route path="/" element={<Books />} />
         <Route path="/categories" element={<Categories />} />
       </Routes>
-    </>
+    </div>
   );
 }
 
