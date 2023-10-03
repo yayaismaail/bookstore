@@ -7,7 +7,7 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div>
+    <div className="entry-point">
       <Navbar />
       <Routes>
         <Route path="/" element={<BookList />} />
