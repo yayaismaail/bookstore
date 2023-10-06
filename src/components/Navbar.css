@@ -1,33 +1,47 @@
-.nav-bar {
+.nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  background-color: rgba(207, 202, 202, 0.459);
-  padding-left: 30px;
+  background-color: white;
+  padding-left: 6.25rem;
+  color: #0290ff;
+  border-bottom: 3px solid #e8e8e8;
 }
 
-.header {
-  font-size: 3em;
+.head {
+  font-size: 2.5em;
 }
 
 a {
   text-decoration: none;
-  font-size: 1.6em;
-  color: grey;
+  font-size: 1.1em;
+  letter-spacing: 1.9px;
+  color: #121212;
   opacity: 0.5;
 }
 
-.nav-bar ul {
+.nav ul {
   list-style: none;
   display: flex;
-  justify-content: space-around;
-  flex-basis: 22%;
+  flex-basis: 30%;
+}
+
+.nav ul li {
+  padding-right: 30px;
 }
 
 .active {
   opacity: 1;
 }
 
-.title {
-  margin: 0 20px;
+.navUser {
+  border: 1px solid lightgray;
+  padding: 0.5rem;
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #0090ff;
+  margin-left: 27vw;
 }
