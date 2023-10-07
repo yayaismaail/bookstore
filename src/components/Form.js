@@ -30,7 +30,7 @@ const Form = () => {
   };
 
   return (
-    <form className="add-form" onSubmit={handleSubmit}>
+    <form className="form" onSubmit={handleSubmit}>
       <label htmlFor="title">
         <input
           type="text"
@@ -53,7 +53,7 @@ const Form = () => {
           required
         />
       </label>
-      <button className="update-btn add-btn" type="submit">ADD BOOK</button>
+      <button className="add-book-btn" type="submit">ADD BOOK</button>
     </form>
   );
 };

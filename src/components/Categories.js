@@ -9,12 +9,13 @@ const Categories = () => {
     <section>
       <button
         type="button"
+        className="check-status"
         onClick={() => dispatch(checkStatus())}
       >
         Check status
       </button>
       <br />
-      <span>{categories}</span>
+      <span className="construction">{categories}</span>
     </section>
   );
 };

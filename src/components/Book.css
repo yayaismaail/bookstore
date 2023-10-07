@@ -2,12 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 4rem;
-  margin-right: 6.25rem;
-  margin-top: 24px;
-  padding-left: 1.4rem;
-  padding-right: 1.4rem;
-  width: 68rem;
+  margin: 2% 5%;
+  padding: 1rem 2rem;
+  width: 83%;
   height: 10.625rem;
   background-color: #fff;
   border: 1px solid #e8e8e8;
@@ -33,6 +30,7 @@
   font-weight: 300;
   color: #4386bf;
   margin-top: -1px;
+  cursor: pointer;
 }
 
 .action {
@@ -49,9 +47,20 @@
   margin-left: 10px;
 }
 
+.rmv-bk {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 5px;
+  color: #4386bf;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
 .progress-container {
   display: flex;
   align-items: center;
+  margin-left: 22%;
 }
 
 .percentage-complete {
@@ -65,8 +74,8 @@
 }
 
 .progress-bar {
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 5rem;
+  height: 5rem;
   margin-right: 20px;
 }
 
@@ -79,6 +88,15 @@
 .span-main {
   height: 80px;
   border: 1px solid #e8e8e8;
+  margin-left: 10%;
+}
+
+.right-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 6%;
 }
 
 .chapter {

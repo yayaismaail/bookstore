@@ -17,7 +17,7 @@ const Books = () => {
 
   let content;
   if (isLoading) {
-    content = <p className="load">Loading...</p>;
+    content = <p className="load">Loading... Pleaes Wait</p>;
   } else if (ifSucceed) {
     content = Object.keys(books).map((key) => {
       const currentBook = books[key][0];
@@ -34,9 +34,9 @@ const Books = () => {
 
   return (
     <section>
-      <ul>{content}</ul>
-      <span className="span-form" />
-      <h4 className="add-book-heading">ADD NEW BOOK</h4>
+      <ul className="book-lists">{content}</ul>
+      <hr className="hr" />
+      <h4 className="add-book-title">ADD NEW BOOK</h4>
       <Form />
     </section>
   );
