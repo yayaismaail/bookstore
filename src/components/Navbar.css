@@ -1,33 +1,48 @@
 .nav-bar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  background-color: rgba(207, 202, 202, 0.459);
-  padding-left: 30px;
+  background-color: white;
+  padding-left: 6.25rem;
+  color: #0290ff;
+  border-bottom: 1px solid #e8e8e8;
 }
 
-.header {
-  font-size: 3em;
+.header-title {
+  font-size: 2.5em;
 }
 
-a {
+.navigation-link {
   text-decoration: none;
-  font-size: 1.6em;
-  color: grey;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  color: #121212;
   opacity: 0.5;
 }
 
-.nav-bar ul {
+.nav-bar .lists {
   list-style: none;
   display: flex;
-  justify-content: space-around;
-  flex-basis: 22%;
+  flex-basis: 30%;
+}
+
+.nav-bar .lists .list-items {
+  padding-right: 30px;
+}
+
+.userIcon {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  padding: 0.5rem;
+  color: #0090ff;
+  margin-left: 32vw;
+  cursor: pointer;
 }
 
 .active {
   opacity: 1;
-}
-
-.title {
-  margin: 0 20px;
 }
